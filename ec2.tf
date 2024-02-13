@@ -1,9 +1,8 @@
-
-# provider "aws" {
-#  region     = "ap-south-1"
-#  access_key = "AKIATIP3WBBILLRY4ZLP"
-#  secret_key = "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"
-#}
+provider "aws" {
+  region     = "ap-south-1"
+  access_key = "AKIATIP3WBBILLRY4ZLP"
+  secret_key = "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"
+}
 
 resource "aws_instance" "webcode" {
   ami           = "ami-03f4878755434977f"
