@@ -6,7 +6,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "webcode" {
-  ami           = "ami-03f4878755434977f"
+  ami           = "ami-05a5bb48beb785bf1"
   instance_type = "t2.micro"
   key_name      = "full"
   user_data = "${file("install_apache.sh")}"
